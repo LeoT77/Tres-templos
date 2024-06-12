@@ -5,4 +5,13 @@
 header {
     min-height: 70px;
     background: rosybrown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+header a {
+    display: inline-block;
+    padding: 0 25px;
+    text-decoration: none;
 }
