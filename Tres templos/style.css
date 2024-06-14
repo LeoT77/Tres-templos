@@ -30,6 +30,12 @@ main #services{
     align-content: center;
     text-align: center;
 }
+.staff{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    text-align: center;
+}
 .titulo{
     display: flex;
     text-align: center;
