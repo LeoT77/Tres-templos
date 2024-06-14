@@ -30,7 +30,7 @@ main #services{
     align-content: center;
     text-align: center;
 }
-.staff{
+#staff{
     display: flex;
     justify-content: space-evenly;
     align-content: center;
