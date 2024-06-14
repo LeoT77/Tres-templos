@@ -38,6 +38,10 @@ main #services{
     align-content: center;
     text-align: center;
 }
+.contenedor{
+    min-height: 600px;
+    background: crimson;
+}
 .titulo{
     display: flex;
     text-align: center;
