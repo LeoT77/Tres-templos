@@ -61,7 +61,6 @@ main #services{
 }
 .footer-row{
     display: flex;
-    flex-wrap: wrap;
 
 }
 .footer-links{
@@ -79,7 +78,7 @@ main #services{
     text-decoration: none;
     color: #6b787c;
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     transition: all .3s ease;
 }
 .footer-links ul li a{
