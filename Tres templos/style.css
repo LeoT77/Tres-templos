@@ -51,7 +51,7 @@ main #services{
 #services p{
     width: 400px;
 }
-.contenedor{
+.contenedorf{
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -96,5 +96,5 @@ main #services{
     line-height: 40px;
     border-radius: 50%;
     color: #ffffff;
-    
+
 }
