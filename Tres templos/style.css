@@ -57,7 +57,7 @@ main #services{
 }
 .footer{
     background: black;
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .footer-row{
     display: flex;
@@ -68,10 +68,10 @@ main #services{
     width: 25%;
     padding: 0 15px;
     color: white;
-    margin-bottom: 20px;
-    font-weight: 400;
+    margin-bottom: 25px;
+    font-weight: 500;
     border-bottom: 2px solid #00c3ff;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     display: inline-block;
 }
 .footer-links ul li a{
