@@ -56,7 +56,7 @@ main #services{
 #newEvents{
     width: 29%;
     float: left;
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 #newEvents li{
