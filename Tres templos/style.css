@@ -13,7 +13,6 @@ header {
     align-items: center;
     text-align: center;
     font-family: 'Oswald';
-    position: fixed;
 }
 header a {
     display: inline-block;
