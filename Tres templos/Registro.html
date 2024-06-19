@@ -24,51 +24,45 @@
                 </ul>
             </nav>
         </header>
-        <form action="#" method="get">
-                <input type="text" name="nombre" id="nombre" placeholder="Ingresar nombre y apellido">
-                <input type="number" name="celular" id="celular" placeholder="Ingresa tu numero de celular">
-                <input type="email" name="mail" placeholder="Ingresa tu email">
-                <input type="password" name="passk" placeholder="Ingresa tu clave">
-            <label for="nacimiento">Fecha de nacimiento</label>
-            <input type="date" name="nac" id="nacimiento">
-            <h3>Genero</h3>
-            <input type="radio" name="genero" id="masculino">
-            <label for="masculino">Masculino</label>
-            <input type="radio" name="genero" id="femenino">
-            <label for="femenino">Femenino</label>
-            <input type="radio" name="genero" id="otro">
-            <label for="otro">Otro</label>
-            <h3>Seleccione su provincia</h3>
-            <select name="provincia" id="provincia">
-                <option>Buenos Aires</option>
-                <option>Ciudad Autonoma de Buenos Aires</option>
-                <option>Catamarca</option>
-                <option>Chaco</option>
-                <option>Chubut</option>
-                <option>Cordoba</option>
-                <option>Corrinetes</option>
-                <option>Entre Rios</option>
-                <option>Formosa</option>
-                <option>Jujuy</option>
-                <option>La Pampa</option>
-                <option>La Rioja</option>
-                <option>Mendoza</option>
-                <option>Misiones</option>
-                <option>Neuquen</option>
-                <option>Rio Negro</option>
-                <option>Salta</option>
-                <option>San Juan</option>
-                <option>San Luis</option>
-                <option>Santa Cruz</option>
-                <option>Santa Fe</option>
-                <option>Santiago del Estero</option>
-                <option>Tierra del Fuego</option>
-                <option>Tucuman</option>
-            </select>
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
+        <div class="registro">
+            <form action="#" method="get">
+                <h1>Formulario de registro</h1>
+                <div class="Nombre">
+                    <input type="Nombre" required>
+                    <label>Ingrese su nombre</label>
+                </div>
+                <div class="Apellido">
+                    <input type="text" required>
+                    <label>Ingrese su apellido</label>
+                </div>
+                <section>
+                    <div id="Genero">
+                        <label for="Genero">Genero:</label>
+                        <input class="sexo" type="radio" name="genero" value="femenino"><span>femenino</span>
+                        <input class="sexo" type="radio" name="genero" value="masculino"><span>masculino</span>
+                        <input class="sexo" type="radio" name="genero" value="Otro"><span>otro</span>
+                    </div>
+                    <div>
+                        <input id="fecha" type="date">
+                    </div>
+                </section>
+                <div class="E-mail">
+                    <input type="text" required>
+                    <label>Ingrese su E-mail</label>
+                </div>
+                <div class="clave">
+                    <input type="password" required>
+                    <label>Crear contraseña</label>
+                </div>
+                <div class="clave">
+                    <input type="password" required>
+                    <label>Confirmar contraseña</label>
+                </div>
+                <div class="registrarme"></div>
+                    <input type="submit" value="Registrarme">
+                </div>
+            </form>
+        </div>
         <footer></footer>
-</body>
+    </body>
 </html>
