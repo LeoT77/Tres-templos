@@ -15,6 +15,10 @@ header {
     text-align: center;
     font-family: 'Oswald';
 }
+header .logo{
+    font-family: "trajan-color", serif;
+    color: gold
+}
 header a {
     display: inline-block;
     padding: 0 25px;
