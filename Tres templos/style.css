@@ -148,6 +148,10 @@ main #services{
     padding-bottom: 20px;
     display: inline-block;
 }
+.footer-links ul {
+    list-style: none;
+    padding: 5px 0;
+}
 .footer-links ul li a{
     font-size: 18px;
     text-decoration: none;
@@ -179,14 +183,14 @@ main #services{
     transform: translate(-50%, -50%);
     width: 500px;
     height: 600px;
-    background: rgba(255, 255, 255, 0.318);
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
 }
 .formulario h1{
     width: 90%;
     height: 40px;
     text-align: center;
-    padding:  0 20px 0;
+    padding:  5px 20px;
     border-bottom: 1px solid  silver;
     color: black;
 }
@@ -291,8 +295,6 @@ form .Clave{
     width: 100%;
 }
 
-
-
 .recordar{
     margin: -5px 0 20px 5px;
     cursor: pointer;
@@ -320,7 +322,7 @@ input[type="submit"]:hover{
     left: 50%;
     transform: translate(-50%, -50%);
     width: 600px;
-    background: rgba(255, 255, 255, 0.318);
+    background: rgba(255, 255, 255, 0.4);
     border-radius: 10px;
     min-height: 600px;
 }
@@ -333,7 +335,7 @@ input[type="submit"]:hover{
     width: 90%;
     height: 40px;
     text-align: center;
-    padding:  0 20px 0;
+    padding:  5px 20px;
     color: black;
     border-bottom: 1px solid  silver;
 }
